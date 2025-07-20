@@ -215,3 +215,53 @@ nav {
   line-height: 5px;
 }
 
+
+/* lets get in touch */
+.touch-heading{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+
+.touch{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    max-width: 700px;
+    height: 300px;
+    padding: 100px;
+     
+
+}
+input[type="email"],input[type="text"],textarea{
+    border-radius: 5px;
+     height: 50%;
+        width:  300px;
+        background-color: white;
+        border: none;
+        padding: 13px;
+        display: block;
+        font-size: 10px
+}
+.font-bolder{
+    font-size: 80px;
+    
+}
+
+.form-label{
+    font-size: 10px;
+    font-weight: 600;
+}
+.btn-3{
+     width: 320px;
+    height: 35px;
+      border-radius: 10px;
+    background-color: #0800ff;
+    color: #FFFFFF;border: none;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 600;
+}
+.btn:hover, .btn-1:hover, .btn-2:hover, .btn-3:hover{
+  background-color: goldenrod;
+}
