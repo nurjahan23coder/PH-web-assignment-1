@@ -48,6 +48,44 @@ main {
   margin-bottom: 80px;
 }
 
+.action {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+  max-width: 740px;
+  margin: 0 auto;
+  height: 300px;
+  margin-bottom: 80px;
+}
+.action-head{
+  font-size: 42;
+  font-weight: bold;
+}
+
+.btn-2 {
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: blue;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.img-1 {
+  border-radius: 40px;
+  width: 275px;
+  height: 220px;
+}
+
+.font-size {
+  font-size: 16px;
+  color: #67646d;
+  
+}
+
 /* nav styles */
 nav {
   display: flex;
